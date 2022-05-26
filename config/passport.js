@@ -13,7 +13,7 @@ module.exports = function () {
 				clientID: '2b084102a5a131895d03',
 				clientSecret: 'b86b8c8a840de0653b7b74cb27db838cbb718b15',
 				callbackURL:
-					'https://dswa5-11-ac-pt3008479.herokuapp.com/auth/github/callback',
+					'https://dswa5-14-ac-pt3008479.herokuapp.com/auth/github/callback',
 			},
 			function (accessToken, refreshToken, profile, done) {
 				Usuario.findOrCreate(
