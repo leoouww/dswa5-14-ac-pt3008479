@@ -3,6 +3,7 @@ var GitHubStrategy = require('passport-github2').Strategy;
 var mongoose = require('mongoose');
 
 
+
 module.exports = function () {
 	var Usuario = mongoose.model('Usuario');
 
